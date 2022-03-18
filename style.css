@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  height: 100vh;
+  opacity: 0.8;
+  background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+  background-size: 10px 10px;
+  background-repeat: cover;
+}
+
+.profile-card {
+  width: 32%;
+  border-radius: 9px;
+  position: relative;
+  top: 10em;
+  left: 30em;
+  height: 60%;
+  background-color: #ffffff;
+}
+.top-container {
+  background: url("./images//bg-pattern-card.svg");
+  height: 13em;
+}
+
+.image-container {
+  border-radius: 50%;
+  position: relative;
+  top: 8em;
+  left: 10em;
+}
+
+.profile-intro {
+  margin: 4em 0 0 11em;
+  display: inline-block;
+}
+
+.image-container > img {
+  border-radius: 50%;
+  width: 9em;
+  height: 9em;
+  border: 8px solid #ffffff;
+}
+.profile-intro {
+  margin-top: 6em;
+  margin-left: 9em;
+  text-align: center;
+}
+
+.section {
+  margin-top: 3em;
+  padding-left: 9em;
+  padding-top: 1em;
+  border-top: 1px solid #c0c0c0;
+}
+#name {
+  margin-right: 0.3em;
+}
+table > tbody > tr:nth-child(1),
+#name {
+  font-weight: 700;
+  font-size: 20px;
+}
+table > tbody > tr:nth-child(2),
+#age,
+#location {
+  color: #707070;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  margin-left: -20%;
+  text-align: center;
+}
+
+td {
+  width: 25%;
+}
