@@ -15,8 +15,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 Solution is designed for desktops at 1440px and mobile at 375px
 
-- Solution URL: https://624c5f56cfd7a76b351d747c--capable-stroopwafel-e3e1ca.netlify.app/
-
+- Solution URL: [https://624c5f56cfd7a76b351d747c--capable-stroopwafel-e3e1ca.netlify.app/](url)
 ## My process
 
 ### Built with
