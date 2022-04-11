@@ -91,3 +91,35 @@ table {
 td {
   width: 25%;
 }
+@media screen and (max-width: 375px) {
+  .profile-card {
+    left: 1.5em;
+    width: 90vw;
+    border-radius: 12px;
+  }
+  .top-container {
+    height: 8.5em;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+  .image-container {
+    left: 2em;
+    top: 3em;
+  }
+  .image-container > img {
+    width: 5em;
+    height: 5em;
+  }
+  .profile-intro {
+    margin: 6em 1em 0 6em;
+  }
+  .image-container > img {
+    margin: 2em 0 0 5em;
+    width: 7em;
+    height: 7em;
+  }
+  .section {
+    padding-left: 5em;
+  }
+}
