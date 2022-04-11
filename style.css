@@ -33,6 +33,8 @@
 .top-container {
   background: url("./images//bg-pattern-card.svg");
   height: 13em;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
 }
 
 .image-container {
